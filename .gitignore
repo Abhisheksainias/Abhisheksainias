@@ -32,8 +32,3 @@ ehthumbs.db
 
 # npm pack output
 *.tgz
-
-# Ignore all image files globally
-*.jpg
-*.jpeg
-*.png
