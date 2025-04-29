@@ -1,6 +1,7 @@
 // File: src/components/Projects.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import ECommerceCart from '../assets/E-CommerceCart.jpg';
 
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -30,7 +31,7 @@ const Projects = () => {
             id: 3,
             title: 'E-Cart',
             category: 'frontend',
-            image: './src/assets/E-CommerceCart.jpg',
+            image: ECommerceCart,
             description: 'Developed an e-commerce cart using Redux Toolkit for state management in a React application. Implemented dynamic product addition, removal, and cart updates with optimized component rendering. Utilized React Styled Components for maintaining a modular and responsive web design. ',
             technologies: ['React', 'Redux-toolkit'],
             liveLink: 'https://zometocart.netlify.app/',
