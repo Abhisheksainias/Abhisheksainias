@@ -30,7 +30,7 @@ const Projects = () => {
             id: 3,
             title: 'E-Cart',
             category: 'frontend',
-            image: '/public/E-CommerceCart.jpg',
+            image: './src/assets/E-CommerceCart.jpg',
             description: 'Developed an e-commerce cart using Redux Toolkit for state management in a React application. Implemented dynamic product addition, removal, and cart updates with optimized component rendering. Utilized React Styled Components for maintaining a modular and responsive web design. ',
             technologies: ['React', 'Redux-toolkit'],
             liveLink: 'https://zometocart.netlify.app/',
