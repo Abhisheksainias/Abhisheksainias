@@ -2,6 +2,10 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ECommerceCart from '../assets/E-CommerceCart.jpg';
+import Eshoppy from '../assets/E-Shoopy.png'
+import NoteApp from '../assets/Note-App.jpg'
+import FantasyGame from '../assets/Fantasy-Game.png'
+
 
 const Projects = () => {
     const [activeFilter, setActiveFilter] = useState('all');
@@ -11,7 +15,7 @@ const Projects = () => {
             id: 1,
             title: 'E-Shoppy',
             category: 'frontend',
-            image: '/public/E-Shoopy.png',
+            image: Eshoppy,
             description: 'A clean and responsive e-commerce frontend layout built using only **HTML** and **CSS**. This project showcases a modern UI for an online shopping platform, including product listings, banners, navigation bar, and footer',
             technologies: ['HTML', 'CSS'],
             liveLink: 'https://abhisheksainias.github.io/E-Shoppy/',
@@ -21,7 +25,7 @@ const Projects = () => {
             id: 2,
             title: 'Note Application ',
             category: 'frontend',
-            image: '/public/Note-App.jpg',
+            image: NoteApp,
             description: 'Built a note application with React, integrating features for creating, updating, and deleting notes. Designed an interactive UI with real-time data handling for seamless user experience. Applied performance optimization techniques to enhance app efficiency. ',
             technologies: ['React', 'JavaScript'],
             liveLink: 'https://example.com',
@@ -41,7 +45,7 @@ const Projects = () => {
             id: 4,
             title: 'Fantasy Game',
             category: 'fullstack',
-            image: '/public/Fantasy-Game.png',
+            image: FantasyGame,
             description: 'Developed a fantasy game using the MERN stack, allowing users to create teams by selecting players. Designed a dynamic, user-friendly interface with Tailwind CSS for full responsiveness across devices. Built a robust back-end for player management with RESTful APIs, improving database management efficiency. ',
             technologies: ['React.js', 'Node.js', 'Express', 'MongoDB'],
             liveLink: 'https://abhishek-fantasy-gameapp.netlify.app/',

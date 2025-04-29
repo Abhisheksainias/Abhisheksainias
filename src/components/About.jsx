@@ -1,8 +1,14 @@
 // File: src/components/About.js
 import React from 'react';
 import { motion } from 'framer-motion';
+// import About from '../assets/About.jpg'; // Adjust the path as necessary
 
 const About = () => {
+    // const image = [
+    //         {
+    //             src: About,
+    //         }
+    //     ];
     return (
         <section id="about" className="py-16 md:py-24 bg-gray-100 dark:bg-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
