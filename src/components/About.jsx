@@ -79,7 +79,7 @@ const About = () => {
                             <div className="w-72 h-72 md:w-96 md:h-96 bg-indigo-600 rounded-lg absolute -bottom-4 -right-4 z-0"></div>
                             <div className="w-72 h-72 md:w-96 md:h-96 rounded-lg overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg relative z-10">
                                 <img
-                                    src="/public/About.jpg" // Replace with your image path
+                                    src="/About.jpg" // Replace with your image path
                                     alt="Your Name - Abhishek Saini"
                                     className="w-full h-full object-cover"
                                 />

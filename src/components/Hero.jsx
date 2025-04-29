@@ -62,7 +62,7 @@ const Hero = () => {
                     >
                         <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg">
                             <img
-                                src="/public/Profile.jpg" // Replace with your image path
+                                src="/Profile.jpg" // Replace with your image path
                                 alt="Abhishek Saini"
                                 className="w-full h-full object-cover"
                             />
