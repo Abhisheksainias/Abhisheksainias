@@ -5,6 +5,7 @@ import ECommerceCart from '../assets/E-CommerceCart.jpg';
 import Eshoppy from '../assets/E-Shoopy.png'
 import NoteApp from '../assets/Note-App.jpg'
 import FantasyGame from '../assets/Fantasy-Game.png'
+import Pokemon from '../assets/Pokemon.png'
 
 
 const Projects = () => {
@@ -51,16 +52,16 @@ const Projects = () => {
             liveLink: 'https://abhishek-fantasy-gameapp.netlify.app/',
             githubLink: 'https://github.com/Abhisheksainias/Fantsay_Game',
         },
-        // {
-        //     id: 4,
-        //     title: 'Weather Application',
-        //     category: 'frontend',
-        //     image: '/api/placeholder/600/400',
-        //     description: 'A weather application that provides current weather data and forecasts for locations worldwide.',
-        //     technologies: ['React', 'OpenWeather API', 'Geolocation API', 'Tailwind CSS'],
-        //     liveLink: 'https://example.com',
-        //     githubLink: 'https://github.com/yourusername/weather-app',
-        // },
+        {
+            id: 5,
+            title: 'Pokemon Explorer',
+            category: 'frontend',
+            image: Pokemon,
+            description: 'Pokémon Explorer is a dynamic React-based web app that lets users search, explore, and view detailed stats of Pokémon using the PokéAPI. Designed with a clean UI, it offers an interactive and responsive user experience.',
+            technologies: ['React', 'Live Api', 'Tailwind CSS'],
+            liveLink: 'https://pokemon-explorer-ruby.vercel.app/',
+            githubLink: 'https://github.com/Abhisheksainias/pokemon-explorer',
+        },
         // {
         //     id: 5,
         //     title: 'Blog Platform',
